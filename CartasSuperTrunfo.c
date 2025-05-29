@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main() {
     // Definição da Estrutura da Carta
     char estado1[2];
