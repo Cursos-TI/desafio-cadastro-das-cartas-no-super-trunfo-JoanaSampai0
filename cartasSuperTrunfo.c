@@ -101,18 +101,6 @@ int main() {
     printf("Densidade Populacional: %.2f hab/km²\n", densidadePopulacional2);
     printf("PIB per Capita: %.2f reais\n", pibPerCapita2);
 
-    // Comparação - Exemplo: População (maior vence)
-    printf("\n Comparação de Cartas (Atributo: População) \n");
-    printf("Carta 1 - %s (%s): %d\n", nomeDaCidade1, estado1, populacao1);
-    printf("Carta 2 - %s (%s): %d\n", nomeDaCidade2, estado2, populacao2);
-
-    if (populacao1 > populacao2) {
-        printf("Resultado: Carta 1 (%s) venceu!\n", nomeDaCidade1);
-    } else if (populacao2 > populacao1) {
-        printf("Resultado: Carta 2 (%s) venceu!\n", nomeDaCidade2);
-    } else {
-        printf("Resultado: Empate!\n");
-    }
 
     return 0;
 }
